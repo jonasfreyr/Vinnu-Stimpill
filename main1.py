@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\Python\vinnu-stimpill\gluggi.ui'
+# Form implementation generated from reading ui file 'gluggi.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.3
 #
@@ -27,18 +27,23 @@ class Ui_MainWindow(object):
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_3.setGeometry(QtCore.QRect(630, 210, 121, 31))
         self.pushButton_3.setObjectName("pushButton_3")
+        self.tableWidget = QtWidgets.QTableWidget(self.centralwidget)
+        self.tableWidget.setEnabled(True)
+        self.tableWidget.setGeometry(QtCore.QRect(50, 260, 551, 291))
+        self.tableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        self.tableWidget.setObjectName("tableWidget")
+        self.tableWidget.setColumnCount(0)
+        self.tableWidget.setRowCount(0)
         self.listWidget = QtWidgets.QListWidget(self.centralwidget)
-        self.listWidget.setGeometry(QtCore.QRect(50, 260, 141, 281))
+        self.listWidget.setGeometry(QtCore.QRect(630, 260, 121, 291))
         self.listWidget.setObjectName("listWidget")
-        self.listWidget_2 = QtWidgets.QListWidget(self.centralwidget)
-        self.listWidget_2.setGeometry(QtCore.QRect(240, 260, 141, 281))
-        self.listWidget_2.setObjectName("listWidget_2")
-        self.listWidget_3 = QtWidgets.QListWidget(self.centralwidget)
-        self.listWidget_3.setGeometry(QtCore.QRect(430, 260, 141, 281))
-        self.listWidget_3.setObjectName("listWidget_3")
-        self.listWidget_4 = QtWidgets.QListWidget(self.centralwidget)
-        self.listWidget_4.setGeometry(QtCore.QRect(620, 260, 131, 281))
-        self.listWidget_4.setObjectName("listWidget_4")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(350, 210, 91, 31))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        self.label_2.setFont(font)
+        self.label_2.setText("")
+        self.label_2.setObjectName("label_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
